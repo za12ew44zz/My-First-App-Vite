@@ -1,0 +1,197 @@
+*{
+  padding: 0;
+  margin: 0;
+  
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  
+  background: rgb(235,123,223);
+  background: linear-gradient(0deg, rgba(235,123,223,1) 0%, rgba(187,65,174,1) 51%, rgb(72, 19, 67) 100%);
+  height: 1200px;
+  
+  
+}
+/* .progress-bar{
+  background-color: bisque;
+  width: 100%;
+  height: 100px;
+  & .progress-bar-filled{
+    width: 50%;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+  }
+} */
+
+.container{
+  
+  width: 50%;
+  height: 500px;
+  margin: auto;
+  transform: translateY(20%);
+  
+
+}
+.title{
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  margin-top:40px;
+  margin-bottom:50px;
+  font-weight: bold;
+  
+  
+}
+.btn{
+  color:rgb(0, 0, 0);
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  width: 25%;
+  margin:  auto;
+  padding: 10px;
+  font-size: 40px;
+  cursor: pointer;
+  transition: .2s;
+}
+.btn:hover{
+  background-color: rgb(126, 43, 100);
+  color: white;
+ 
+  
+  width: 27%;
+
+}
+
+
+.container-card{
+  width:  100%;
+  display: flex;
+  margin:  auto;
+  height: 150px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  
+  
+  
+  margin-bottom: 100px;
+  & .card{
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    width: 20%;
+    
+    border-radius: 10px;
+    margin: 20px 20px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    transition: .3s;
+    cursor: pointer;
+    
+  }
+
+
+
+ 
+}
+
+.card:hover{
+  background-color: rgb(209, 209, 209);
+  color: rgb(0, 0, 0);
+}
+
+.card-info{
+  width: 60%;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+}
+.cat{
+  background: url('../src/img/cat.gif');
+  background-repeat: no-repeat;
+background-size: cover;
+  
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 500px;
+  bottom: -460px;
+  
+}
+
+
+.tree{
+  z-index: -99;
+  display: flex;
+  width: 20%;
+  position: relative;
+
+}
+
+.bg-dirt{
+  z-index: 2;
+  display: flex;
+}
+.bg-dirtpure{
+  display:flex;
+}
+.footer{
+  width: 100%;
+  height: 300px;
+  background-color: rgb(9, 9, 9);
+  display: flex;
+  background: rgb(66,14,61);
+  background: linear-gradient(90deg, rgba(29,3,27,1) 0%, rgba(31,1,9,1) 100%);
+}
+.container-footer{
+  color: rgb(255, 255, 255);
+  background-color: rgb(108, 108, 108);
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-up{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+  margin: 20px;
+  transition: .2s;
+}
+.btn-up:hover{
+  transform: translateY(-5px);
+}
+
+
+
+/* ##########################  MOON  ################################*/
+
+.container-moon{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  padding-top:20px;
+  padding-left: 100px;
+
+}
+
+.moon{
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  box-shadow: -20px 20px 0 15px rgb(255, 217, 0);
+  border-radius: 50%;
+  transition: .5s;
+  
+}
+
+
+/* ##########################  END-MOON  ################################*/
